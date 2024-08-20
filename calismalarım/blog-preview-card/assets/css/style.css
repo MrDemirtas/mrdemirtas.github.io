@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4d04e;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 384px;
+  height: 522px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  box-shadow: 8px 8px;
+  box-sizing: border-box;
+}
+
+.mainImg {
+  width: 336px;
+  height: 200px;
+}
+
+.learningButton {
+  display: table;
+  padding: 4px 12px;
+  background-color: #f4d04e;
+  border-radius: 4px;
+  color: #111111;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+
+.publishDate {
+  margin-top: 12px;
+  color: #111111;
+  display: inline-block;
+}
+
+.subText {
+  color: #7f7f7f;
+}
+
+.author {
+  margin-top: 24px;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.authorImg {
+  display: inline-flex;
+  align-items: center;
+}
+
+.authorName {
+  margin-left: 12px;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
