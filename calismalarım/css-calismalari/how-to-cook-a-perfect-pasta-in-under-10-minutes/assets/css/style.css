@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  background-color: #ffffff;
+  margin-inline: auto;
+  max-width: 1110px;
+}
+
+.pageHeader {
+  font-size: 40px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.headerDiv {
+  margin-top: 80px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.author {
+  margin-top: 28px;
+  padding-bottom: 16px;
+}
+
+.authorName {
+  margin-left: 10px;
+  color: #52647c;
+  vertical-align: super;
+}
+
+.mainContent {
+  margin-top: 44px;
+}
+
+.mainContent img {
+  width: 100%;
+  display: block;
+  margin-inline: auto;
+}
+
+.mainContent p {
+  color: #212121;
+  font-weight: 400;
+  margin-top: 32px;
+  font-size: 16px;
+}
+
+.imacContent {
+  padding: 130px 0;
+}
+
+.imacContent h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #212121;
+}
+
+.imacContent p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #212121;
+}
+
+.imacContent img {
+  float: left;
+  width: 540px;
+}
+
+.roalddalh {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #ecf1f8;
+  height: 347px;
+}
+
+.subRoalddalh {
+  padding: 0 230px;
+}
+
+.appleWatchContent {
+  padding: 60px 0;
+}
+
+.appleWatchContent img {
+  float: right;
+}
+
+.videoContent {
+  margin-top: 48px;
+  padding: 48px 0;
+}
+
+.videoContent h2 {
+  color: #212121;
+}
