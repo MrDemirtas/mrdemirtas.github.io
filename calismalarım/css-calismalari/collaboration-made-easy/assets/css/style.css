@@ -9,14 +9,16 @@ body {
 }
 
 .container {
-  max-width: 90%;
+  margin-inline: auto;
+  max-width: 80%;
   height: 100vh;
   background-color: #05285b;
-  background-image: url("../img/image.png");
-  background-repeat: no-repeat;
-  background-position: center right;
   align-items: center;
   display: flex;
+}
+
+.bgImage {
+  margin-left: auto;
 }
 
 .contents {
