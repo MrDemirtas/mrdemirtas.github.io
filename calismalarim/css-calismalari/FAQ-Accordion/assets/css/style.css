@@ -1,0 +1,71 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8eeff;
+}
+
+.container {
+  padding: 167.5px 420px;
+  width: 1440px;
+  margin-inline: auto;
+  background: url("../img/background.jpg") center top no-repeat;
+}
+
+.contents {
+  padding: 40px;
+  width: 600px;
+  background-color: #fff;
+  margin-inline: auto;
+  border-radius: 20px;
+  box-shadow: 0px 32px 56px 0px #5000761a;
+}
+
+.header {
+  display: inline-flex;
+  margin-bottom: 32px;
+}
+
+.header h1 {
+  margin-left: 24px;
+}
+
+summary {
+  display: flex;
+  padding: 4.5px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.11px;
+}
+
+details p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-block: 24px;
+}
+
+summary:hover {
+  cursor: pointer;
+  color: #ad28eb;
+}
+
+details > summary {
+  background: url("../img/ph_plus-circle-fill.svg") no-repeat right center;
+}
+
+details[open] > summary {
+  background: url("../img/ph_minus-circle-fill.svg") no-repeat right center;
+}
+
+hr {
+  border: 1px solid #f8eeff;
+  margin-block: 24px;
+}

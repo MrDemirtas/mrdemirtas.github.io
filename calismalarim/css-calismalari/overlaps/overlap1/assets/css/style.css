@@ -1,0 +1,69 @@
+* {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #1d201f;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contents {
+  position: relative;
+  margin-inline: auto;
+  width: 330px;
+  height: 290px;
+}
+
+.contents div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.htmlDiv {
+  left: 0;
+  background: #e76f51e5;
+}
+
+.cssDiv {
+  right: 0;
+  background: #018adfe5;
+}
+
+.jsDiv {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-inline: auto;
+  background: #e9c46ae5;
+}
+
+.contents span {
+  margin-inline: auto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #fff;
+}
+
+.contents:hover {
+  cursor: pointer;
+}
+
+.contents:hover .htmlDiv {
+  z-index: 1;
+}

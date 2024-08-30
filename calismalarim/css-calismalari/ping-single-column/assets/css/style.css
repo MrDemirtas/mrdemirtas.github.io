@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  width: 1440px;
+  margin-inline: auto;
+  text-align: center;
+  padding: 80px 400px;
+}
+
+.container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.78px;
+}
+
+.container h1 span {
+  color: #4c7bf3;
+}
+
+.container h2 {
+  margin-top: 40px;
+  color: #969696;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.container h2 strong {
+  font-family: Libre Franklin;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #15202a;
+}
+
+.container h3 {
+  color: #15202a;
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.24px;
+}
+
+form {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.errorMsg {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 6px;
+  color: #ff5466;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15000000596046448px;
+  display: none;
+}
+
+form input {
+  display: inline-block;
+  width: 421px;
+  height: 56px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px 3px #00000000;
+  border: 1px solid #c2d3ff;
+  padding: 18px 30px;
+  outline: none;
+}
+
+form:invalid input {
+  border: 1px solid #ff5466;
+}
+
+form:invalid input ~ .errorMsg {
+  display: inline-block;
+}
+
+button {
+  display: inline-block;
+  color: #fff;
+  background-color: #4c7bf3;
+  box-shadow: 0px 5px 10px 2px #4c7bf33b;
+  padding: 18px 62px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 16px;
+}
+
+form:hover button {
+  cursor: pointer;
+  background-color: #7196f5;
+}
+
+.container img {
+  margin-top: 68px;
+}
+
+.footer {
+  display: block;
+}
+
+.socialmedia {
+  display: block;
+}
+
+.facebookSvg:hover {
+  content: url("../img/facebookhover.svg");
+}
+
+.twitterSvg:hover {
+  content: url("../img/twitterhover.svg");
+}
+
+.instagramSvg:hover {
+  content: url("../img/instagramhover.svg");
+}
+
+.footer span {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.54px;
+  color: #9b9b9b;
+}
