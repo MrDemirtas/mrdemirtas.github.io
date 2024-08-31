@@ -65,5 +65,6 @@ body {
 }
 
 .contents:hover .htmlDiv {
+  background: #e76f51;
   z-index: 1;
 }
