@@ -8,7 +8,15 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+
 body {
+  /* background-color: #f8f8f8; */
+  background: linear-gradient(to bottom right, #ffffff, #cae5ff);
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -51,7 +59,7 @@ body {
 }
 
 .welcome-contents h1 {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 600;
   line-height: 70px;
   letter-spacing: -0.699999988079071px;
@@ -67,21 +75,28 @@ body {
   padding: 80px 165px;
 }
 
-.latest-project h2 {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 37px;
-  letter-spacing: -0.3499999940395355px;
-  margin-bottom: 40px;
-  color: #212121;
+.cards-area {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 100%;
-  border: 1px solid #c4c4c4;
-  padding: 24px;
+  background-color: #fff;
+  width: calc((100% / 3) - (24px * 2) / 3);
+  border: 1px solid #00324c;
   border-radius: 12px;
   margin-bottom: 80px;
+  padding: 16px;
+  transition: 0.5s ease;
+  box-shadow: 2px 4px #000;
+}
+
+.card:hover {
+  background-color: #004c75;
+  color: #fff;
+  box-shadow: 2px 4px #6a9eff;
 }
 
 .card img {
@@ -92,32 +107,57 @@ body {
 .card h2 {
   display: inline-block;
   font-size: 30px;
-  font-weight: 700;
   line-height: 37px;
   letter-spacing: -0.3499999940395355px;
   margin-top: 24px;
+  color: inherit;
 }
 
 .card p {
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
-  margin-right: 393px;
-  margin-bottom: 64px;
+  margin-top: 16px;
 }
 
-.card a {
-  text-decoration: none;
+.card-figure {
+  position: relative;
 }
 
-.view-project-button {
-  text-decoration: none;
-  color: inherit;
-  font-family: Montserrat;
-  font-size: 14px;
+.card-figure span {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  background-color: #005b89;
+  padding: 5px;
+  color: #fff;
   font-weight: 600;
-  line-height: 24px;
-  padding-right: 17px;
-  background: url("../img/right-arrow-icon.svg") right center no-repeat;
+  border-radius: 6px;
+}
+
+.card-links {
+  margin-top: 32px;
+}
+
+.card-links a {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 16px;
+}
+
+.card-links a:hover {
+  filter: brightness(0) saturate(100%) invert(62%) sepia(15%) saturate(6264%) hue-rotate(195deg) brightness(101%) contrast(101%);
+}
+
+.card-links img {
+  transition: 0.5s ease;
+  width: 18px;
+  margin-left: 4px;
+}
+
+.card:hover > .card-links img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(107%) contrast(103%);
 }
 
 .contact-content {
@@ -141,7 +181,7 @@ body {
 
 .contact-content a {
   color: #0d6efd;
-  text-decoration: none;
+  display: inline-flex;
 }
 
 .footer h6 {
