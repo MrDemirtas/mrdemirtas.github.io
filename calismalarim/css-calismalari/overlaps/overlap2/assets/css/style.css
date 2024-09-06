@@ -65,10 +65,26 @@ body {
   cursor: pointer;
 }
 
-.contents:hover .htmlDiv {
+.htmlDiv:hover {
   z-index: 1;
 }
 
-.contents:hover .htmlDiv span {
+.cssDiv:hover {
+  z-index: 1;
+}
+
+.jsDiv:hover {
+  z-index: 1;
+}
+
+.htmlDiv:hover span {
+  display: block;
+}
+
+.cssDiv:hover span {
+  display: block;
+}
+
+.jsDiv:hover span {
   display: block;
 }

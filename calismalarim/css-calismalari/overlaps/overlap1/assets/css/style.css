@@ -64,6 +64,17 @@ body {
   cursor: pointer;
 }
 
-.contents:hover .htmlDiv {
+.htmlDiv:hover {
+  background: #e76f51;
+  z-index: 1;
+}
+
+.cssDiv:hover {
+  background: #018adf;
+  z-index: 1;
+}
+
+.jsDiv:hover {
+  background: #e9c46a;
   z-index: 1;
 }

@@ -3,24 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ana Sayfa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+    <title>Portfolio</title>
   </head>
-
   <body>
-    <ul>
-      <li><a href="./index.html">Anasayfa</a></li>
-      <li><a href="./calismalarım.html">Çalışmalarım</a></li>
-      <li><a href="./hakkimda.html">Hakkımda</a></li>
-      <li><a href="./iletisim.html">İletişim</a></li>
-    </ul>
-    <h1>
-      Selam, <br />
-      Ben Furkan
-    </h1>
-    <h3>Frontend eğitimi alarak öğrendiğim bilgiler ile portfolyo sitemi yavaş yavaş geliştiiyorum.</h3>
-    <h3>
-      <em><mark>Geliştirmelerimi ve projelerimi takip etmek için arada buraya uğramayı unutma!</mark> </em>
-    </h3>
-    <img src="./assets/img/anasayfa.png" alt="" />
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-show-icon">
+          <a href="#"><img src="./assets/img/navbar-show-icon.svg" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="welcome-contents">
+        <h4>Selam, Ben Nathan</h4>
+        <h1>Marka kimlikleri ve kullanıcı arayüzleri oluşturarak ürünler ile müşteriler arasındaki boşluğu dolduruyorum.</h1>
+        <div class="social-media">
+          <a href="#"><img src="./assets/img/twitter-icon.svg" alt="" /></a>
+          <a href="#"><img src="./assets/img/be-icon.svg" alt="" /></a>
+          <a href="#"><img src="./assets/img/insta-icon.svg" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="latest-project">
+        <h2>Son Projeler</h2>
+        <!-- * Card Start -->
+        <div class="card">
+          <a href="#"><img src="./assets/img/project-images/project-kfc-image.jpg" alt="" /></a>
+          <a href="#">
+            <h2>KFC'nin yeni ambalajı</h2>
+          </a>
+          <p>Öte yandan, anın zevklerinin cazibesiyle o kadar aldanmış ve ahlaken çökmüş olan, arzularıyla körleşmiş insanları haklı bir öfkeyle kınıyoruz ki, bu kişiler ileride karşılaşacakları acıları öngöremezler…</p>
+          <a href="#" class="view-project-button">Vaka çalışmasını görüntüle</a>
+        </div>
+        <!-- * Card End -->
+
+        <!-- * Card Start -->
+        <div class="card">
+          <a href="#"><img src="./assets/img/project-images/project-everyday.jpg" alt="" /></a>
+          <a href="#">
+            <h2>Günlük insanlar</h2>
+          </a>
+          <p>Öte yandan, anın zevklerinin cazibesiyle o kadar aldanmış ve ahlaken çökmüş olan, arzularıyla körleşmiş insanları haklı bir öfkeyle kınıyoruz ki, bu kişiler ileride karşılaşacakları acıları öngöremezler…</p>
+          <a href="#" class="view-project-button">Vaka çalışmasını görüntüle</a>
+        </div>
+        <!-- * Card End -->
+
+        <!-- * Card Start -->
+        <div class="card">
+          <a href="#"><img src="./assets/img/project-images/project-coffee.jpg" alt="" /></a>
+          <a href="#">
+            <h2>Early bird kahve</h2>
+          </a>
+          <p>Öte yandan, anın zevklerinin cazibesiyle o kadar aldanmış ve ahlaken çökmüş olan, arzularıyla körleşmiş insanları haklı bir öfkeyle kınıyoruz ki, bu kişiler ileride karşılaşacakları acıları öngöremezler…</p>
+          <a href="#" class="view-project-button">Vaka çalışmasını görüntüle</a>
+        </div>
+        <!-- * Card End -->
+      </div>
+
+      <div class="contact-content">
+        <h4>İletişime geçin</h4>
+        <h2>Bir sonraki projenizde iş birliği yapmakla ilgileniyor musunuz? Formu doldurun veya <a href="mailto:hello@nathfrank.com">hello@nathfrank.com</a> adresine bir mesaj bırakın.</h2>
+      </div>
+
+      <div class="footer">
+        <h6>© 2021 Nathan Frank</h6>
+      </div>
+    </div>
   </body>
 </html>

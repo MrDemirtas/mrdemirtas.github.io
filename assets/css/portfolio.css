@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  width: 1440px;
+  margin-inline: auto;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-show-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  background-color: #212121;
+}
+
+.navbar-show-icon a {
+  padding: 21px;
+}
+
+.welcome-contents {
+  color: #212121;
+  padding: 120px 411px 120px 155px;
+}
+
+.welcome-contents h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: -0.3499999940395355px;
+  margin-bottom: 12px;
+}
+
+.welcome-contents h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: -0.699999988079071px;
+}
+
+.social-media {
+  display: flex;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.latest-project {
+  padding: 80px 165px;
+}
+
+.latest-project h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: -0.3499999940395355px;
+  margin-bottom: 40px;
+  color: #212121;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 80px;
+}
+
+.card img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.card h2 {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.3499999940395355px;
+  margin-top: 24px;
+}
+
+.card p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  margin-right: 393px;
+  margin-bottom: 64px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.view-project-button {
+  text-decoration: none;
+  color: inherit;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-right: 17px;
+  background: url("../img/right-arrow-icon.svg") right center no-repeat;
+}
+
+.contact-content {
+  color: #212121;
+  padding: 120px 150px;
+}
+
+.contact-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.contact-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+}
+
+.contact-content a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.footer h6 {
+  margin-left: 165px;
+  margin-bottom: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #212121;
+}

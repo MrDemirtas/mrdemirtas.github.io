@@ -82,15 +82,15 @@ body {
 
 .facebookSvg:hover {
   cursor: pointer;
-  content: url("../img/facebookhover.svg");
+  filter: invert(48%) sepia(59%) saturate(2489%) hue-rotate(295deg) brightness(103%) contrast(101%);
 }
 
 .twitterSvg:hover {
   cursor: pointer;
-  content: url("../img/twitterhover.svg");
+  filter: invert(48%) sepia(59%) saturate(2489%) hue-rotate(295deg) brightness(103%) contrast(101%);
 }
 
 .instagramSvg:hover {
   cursor: pointer;
-  content: url("../img/instagramhover.svg");
+  filter: invert(48%) sepia(59%) saturate(2489%) hue-rotate(295deg) brightness(103%) contrast(101%);
 }
