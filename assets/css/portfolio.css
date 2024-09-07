@@ -15,8 +15,8 @@ a {
 }
 
 body {
-  /* background-color: #f8f8f8; */
-  background: linear-gradient(to bottom right, #ffffff, #cae5ff);
+  background-color: #f8f8f8;
+  /* background: linear-gradient(to bottom right, #ffffff, #cae5ff); */
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
